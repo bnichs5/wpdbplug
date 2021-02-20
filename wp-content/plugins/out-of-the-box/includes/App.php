@@ -35,7 +35,7 @@ class App
     /**
      * @var string
      */
-    private $_app_secret = 'eu73x5upk7ehes4';
+    private $_app_secret = '';
 
     /**
      * @var string

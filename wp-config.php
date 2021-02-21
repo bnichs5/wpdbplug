@@ -26,7 +26,7 @@ define( 'DB_NAME', 'b9x0ww5ufecbnksy3nm' );
 define( 'DB_USER', 'unaz0yv3ewgyrdte' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'unaz0yv3ewgyrdte' );
+define( 'DB_PASSWORD', 'tp2hm0DO6xMvBdPFLMJn' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'b9x0ww5ufecbnksy3nmk-mysql.services.clever-cloud.com' );

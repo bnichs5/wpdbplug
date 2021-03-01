@@ -1,0 +1,15 @@
+---
+application:
+  name: "test-wordpressdbplug"
+  project: "Garbageman"
+  organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "garbageman"
+  version: "8"
+routers:
+- name: "main-test-wordpressdbplug"
+  routes:
+  - application_name: "test-wordpressdbplug"
+    paths:
+    - "/*"

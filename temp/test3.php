@@ -78,6 +78,9 @@ print_r($link8 . '<p>');
 	   print_r($link9 . '<P>');   
 	   $cont = @simplexml_load_file($link9);
 	   print_r($cont . '<P>');	
+	   $cont1 = simplexml_load_file($link9);
+	   print_r($cont1 . '<P>');	
+	   	
 		
 	}	
 		

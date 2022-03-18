@@ -58,4 +58,28 @@ print_r($link8 . '<p>');
 
 
 
+/* This will determine if the plex server is online or has been shutdown or just restarting/offline. */
+        $handle4 = curl_init(substr($link7, 0, -13) . '?' . substr($link8, 1));
+        curl_setopt($handle4,  CURLOPT_RETURNTRANSFER, TRUE);
+		curl_setopt($handle4, CURLOPT_TIMEOUT, 10);
+
+        $response4 = curl_exec($handle4);
+        $httpCode4 = curl_getinfo($handle4, CURLINFO_HTTP_CODE);
+        curl_close($handle4);
+
+        if($httpCode4 >= 200 && $httpCode4 <= 400) {
+       
+
+
+
+	/*This combines the pieces together to create the plex url for searching for the movie. */
+	$link9 =  ($link7 . $link5 . $link8);
+       
+	   print_r($link9);   
+		
+		
+	}	
+		
+		
+
 ?>

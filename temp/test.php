@@ -8,8 +8,9 @@
 	$keepinmem = '';
 
 	$link = urlencode($_GET['d']);
+	print_r($link);
 	$link2 = explode ("qqqq", $link);  /*This is an array split into 4 sections from the url. part one is the encrypted base url, part two is the movie title, part three is the movie release year, and part four is the plex token. */
-	
+	print_r($link2);
 	$newarr = array();
 
 

@@ -75,8 +75,9 @@ print_r($link8 . '<p>');
 	/*This combines the pieces together to create the plex url for searching for the movie. */
 	$link9 =  ($link7 . $link5 . $link8);
        
-	   print_r($link9);   
-		
+	   print_r($link9 . '<P>');   
+	   $cont = @simplexml_load_file($link9);
+	   print_r($cont . '<P>');	
 		
 	}	
 		

@@ -99,7 +99,7 @@ print_r($link8 . '<p>');
           
       $xml11 = file_get_contents($link9);
       file_put_contents("./temp/yourxml.xml", $xml11); 
-          
+      print_r($xml11);    
           
           
             
